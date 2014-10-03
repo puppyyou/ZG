@@ -58,8 +58,9 @@ void setup() {
 
 void updateKnobValues() {
 
-  //String portName = knobValue1.list()[0];
-  //String portName = knobValue2.list()[1];
+  // Leslie 
+//  String portName = knobValue1.list()[0];
+//  String portName = knobValue2.list()[1];
   myPort = new knobValue1(this, portName, 9600);
   myPort = new knobValue2(this, portName, 9600);
   myPort.bufferUntil('\n');
@@ -107,6 +108,7 @@ void draw() {
 }
 
 //////////////Leslie /////////////////////
+
 //removed whitespace
 //send the date from knob to computer
 
@@ -130,3 +132,4 @@ void draw() {
       knobValue1 = map(sensors[0], 0, 1023, 0, 30);
       knobValue2 = map(sensors[1], 0,1023,0,50);}
   }
+
