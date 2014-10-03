@@ -4,8 +4,7 @@ import ddf.minim.ugens.*;
 import processing.video.*;
 import processing.serial.*;
 
-//something
-
+/////////
 Serial myPort; 
 Capture video;
 //knobValue1 myPort;// no need
